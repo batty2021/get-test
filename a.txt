@@ -3,7 +3,9 @@ yes,i am good and you ?
 how is your day going?
 git config
 git init
-git clone
+git clone 
 git add
-git commit
+git commit 
+-m
 git diff
+git add .
