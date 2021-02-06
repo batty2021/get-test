@@ -7,3 +7,4 @@ git clone
 git add
 git commit
 git diff
+hello aynalem and betty jenkin
