@@ -62,6 +62,18 @@
             <artifactId>maven-surefire-plugin</artifactId>
             <version>2.19</version>
         </plugin>
+	    <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.8.0</version>
+    <configuration>
+	  <source>13</source>
+	  <target>13</target>
+	  <fork>true</fork>
+	  <executable>C:\Program Files\Java\jdk1.8.0_281\bin\javac</executable>
+	
+    </configuration>
+</plugin>
     </plugins>
 </build>
 	
