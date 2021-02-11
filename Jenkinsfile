@@ -4,6 +4,6 @@ stage('SCM Checkout'){
 }
 stage('Compile-Package'){
  def mvnHome = tool name: 'betty-maven', type: 'maven'
- sh  "${mvnHome}/bin/mvn package"
+ bat "${mvnHome}/bin/mvn package"
 }
 }
